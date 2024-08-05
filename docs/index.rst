@@ -6,13 +6,17 @@
 temmpy documentation
 ====================
 
-.. autosimple:: temppy.main.FooClass.fooMethod
-   :no-index:
+.. toctree::
+   :maxdepth: 2
+   :caption: Manually-generated documentation:
+
+   maths01.rst
+   maths02.md
 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Auto-generated stuff:
 
    modules.rst
 
