@@ -42,6 +42,13 @@ class FooClass():
         Which can also be labelled and referenced as: equation
         :math:numref:`euler`, which was elected one of the most beautiful
         mathematical formulas.
+        Multiline works too
+
+        .. math::
+            :label: euler2
+
+            e^{i\pi} + 1 = 0 \\
+            e^{j\pi} + 2 = 0
         """
 
         self.c += 1
