@@ -57,14 +57,8 @@ class FooClass():
         e^{j\pi} + 2 = 0
         $$ (euler3)
 
-        which maybe can be referenced as {eq}`euler3`.
-
-        $$
-        (a + b)^2 = a^2 + 2ab + b^2
-        $$
-
-        The equation {eq}`mymath` is a quadratic equation.
-
+        which maybe can be referenced as {eq}`euler3`. Not really because the
+        docstrings are parsed by autodoc which uses ReST?
         """
 
         self.c += 1
